@@ -1,0 +1,16 @@
+header 
+    div.navegacion
+        .container
+            .row.justify-content-center.justify-content-center-md-between.align-items-center.py-4
+                .col-md-4.col-6
+                    a(href="/")
+                        img(src="/img/logo.svg", alt="Logo Agencia de Viajes")
+                .col-md-8
+                    nav.mt-5.mt-md-0.nav.justify-content-center.justify-content-md-end
+                        a(href="/nosotros").mx-3 Nosotros
+                        a(href="/viajes").mx-3 Viajes
+                        a(href="/testimoniales").mx-3 Testimoniales
+                        if usuario
+                            a(href="/logout").mx-3 Cerrar Sesión
+                        else
+                            a(href="/login").mx-3 Iniciar Sesión

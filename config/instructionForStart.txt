@@ -1,0 +1,5 @@
+Start databases Xammp commands:
+- sudo /opt/lampp/lampp startmysql
+
+Stop databases Xammp:
+- sudo /opt/lampp/lampp stop

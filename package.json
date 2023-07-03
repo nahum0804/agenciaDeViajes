@@ -1,0 +1,22 @@
+{
+  "name": "54-agenciadeviajes",
+  "version": "1.0.0",
+  "description": "First Project Using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "Nahum Murillo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.4.2",
+    "pug": "^3.0.2",
+    "sequelize": "^6.32.1"
+  }
+}
