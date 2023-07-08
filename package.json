@@ -4,7 +4,8 @@
   "description": "First Project Using NodeJS",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "type": "module",
   "author": "Nahum Murillo",
